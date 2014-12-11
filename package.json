@@ -1,0 +1,21 @@
+{
+  "name": "node-api",
+  "main": "server.js",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "express-validator":"*",
+    "passport-local": "*",
+    "unirest": "*",
+    "async": "*",
+    "express-session": "*",
+    "winston":"*",
+    "connect-flash" : "*",
+    "MD5" : "*",
+
+    "connect-ensure-login": "*",
+    "cookie-parser":"*"
+  }
+}
