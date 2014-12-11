@@ -25,7 +25,6 @@ var app             = express();
 var bodyParser  = require('body-parser');
 var mongoose   = require('mongoose');
 var db = mongoose.connection;
-var bears           =require('./routes/bears/');
 var routerMensagem           =require('./routes/mensagem/');
 var passport = require('passport')
 var LocalStrategy = require('passport-local').Strategy;
@@ -183,7 +182,6 @@ router.get('/',function(req,res) {
 })
 
 app.use('/api', router)
-app.use('/api', bears)
 app.use('/api', routerMensagem)
 
 app.listen(PORT);
